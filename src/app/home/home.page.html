@@ -12,6 +12,14 @@
     <ion-input [(ngModel)]="senha" (keyup)="verificar()"></ion-input>
   </ion-item>
 
-  <h1>Sua senha é {{forca[nivel]}}</h1>
+  
+      <h1>Sua senha é </h1>
+  <div class="barra-{{nivel}}">
+    <h2>{{forca[nivel]}}<br></h2>
+  </div>
+  
+  <br>
+
+  
   <img src="../../assets/{{nivel}}.png" alt="">
 </ion-content>

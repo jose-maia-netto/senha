@@ -1,27 +1,47 @@
-#container {
+.h1{
   text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  font-size: 10px;
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+.barra-0{
+  width: 0%;
+  height: 30px;
+  
 }
+.barra-1{
+  width: 25%;
+  height: 50px;
+  background-color: red;
+  color:white;
+  border-color: black;
+  border-style:groove;
+  
+  font-size: 12px;
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
 }
-
-#container a {
-  text-decoration: none;
+.barra-2{
+  width: 50%;
+  height: 50px;
+  background-color: yellow;
+  border-color: black;
+  border-style:groove;  
+  font-size: 12px;
+}
+.barra-3{
+  width: 75%;
+  height: 50px;
+  background-color: blue;
+  color: white;
+  border-color: black;
+  border-style:groove;  
+  font-size: 12px;
+}
+.barra-4{
+  width: 100%;
+  height: 50px;
+  background-color: green;
+  color: white;
+  border-color: black;
+  border-style:groove;  
+  font-size: 12px;
 }
